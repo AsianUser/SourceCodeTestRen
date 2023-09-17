@@ -39,7 +39,12 @@ public class MatrixExample {
                     "Number of columns in the first matrix must be equal to the number of rows in the second matrix.");
         }
 
+<<<<<<< Updated upstream
         int[][] result = new int[rows1][cols2];
+=======
+        // Some more issues here too
+        int[][] result = new int[rows1 + 1][cols2 + 1];
+>>>>>>> Stashed changes
 
         for (int i = 0; i < rows1; i++) {
             for (int j = 0; j < cols2; j++) {
